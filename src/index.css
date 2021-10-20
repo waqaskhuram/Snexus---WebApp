@@ -1,0 +1,82 @@
+
+@font-face {
+  font-family: "poppinsRegular";
+  src: local("poppinsRegular"),
+    url(./assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "poppinsMedium";
+  src: local("poppinsMedium"),
+    url(./assets/fonts/Poppins-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "poppinsBold";
+  src: local("poppinsBold"),
+    url(./assets/fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "poppinsSemiBold";
+  src: local("poppinsSemiBold"),
+    url(./assets/fonts/Poppins-SemiBold.ttf) format("truetype");
+}
+
+
+@font-face {
+  font-family: "poppinsExtraBold";
+  src: local("poppinsExtraBold"),
+    url(./assets/fonts/Poppins-ExtraBold.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppinsRegular";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rec-pagination {
+    /* align-self: flex-start; */
+    padding-left: 1%;
+    flex-direction: row;  
+}
+.rec-dot {
+  background-color: #3f3f41 !important;
+  box-shadow: none !important;
+}
+.rec-dot_active {
+  background-color: #fcb818 !important;
+  box-shadow: none !important;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.get-in-touch:hover {
+  opacity: 0.8;
+}
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  height: 30px;
+	margin: 20px 0;
+	color: black;
+	background-color: #cacbcd;
+	cursor: pointer;
+	border-radius: 5px;
+	text-decoration: none;
+	display: flex;
+	padding: 10px 15px;
+	font-size: 0.8rem;
+	font-weight: 700;
+	align-items: center;
+  width:80px;
+
+
+}
+
